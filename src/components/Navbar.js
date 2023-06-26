@@ -2,14 +2,36 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import logo from "../assets/Logo-bb.png";
+import { VscThreeBars } from "react-icons/vsc";
+import { navLinks } from "../utils/data";
 
 function Navbar() {
   return (
     <Wrapper>
       <div className="nav-center">
-        <Link to="/">
-          <img src={logo} alt="boxed bliss" />
-        </Link>
+        <div className="nav-header">
+          <Link to="/">
+            <img src={logo} alt="boxed bliss" />
+          </Link>
+          <button
+            type="button"
+            className="nav-toggle"
+            //onClick={}
+          >
+            <VscThreeBars />
+          </button>
+        </div>
+        <ul className="nav-links">
+          {navLinks.map((link) => {
+            const { id, text, url } = link;
+            return (
+              <li key={id}>
+                <Link to={url}>{text}</Link>
+              </li>
+            );
+          })}
+          {/* checkout */}
+        </ul>
       </div>
     </Wrapper>
   );
