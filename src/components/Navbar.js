@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/Logo-bb.png";
 import { VscThreeBars } from "react-icons/vsc";
 import { navLinks } from "../utils/data";
+import CartButtons from "./CartButtons";
 
 function Navbar() {
   return (
@@ -32,6 +33,7 @@ function Navbar() {
           })}
           {/* checkout */}
         </ul>
+        <CartButtons />
       </div>
     </Wrapper>
   );
