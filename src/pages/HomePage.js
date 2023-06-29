@@ -4,7 +4,10 @@ import { Hero, NewArrivals, Benefits, Contact } from "../components";
 const HomePage = () => {
   return (
     <div>
-      <Hero /> <NewArrivals /> <Benefits /> <Contact />
+      <Hero />
+      <NewArrivals />
+      <Benefits />
+      <Contact />
     </div>
   );
 };

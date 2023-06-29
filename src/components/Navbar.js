@@ -5,8 +5,11 @@ import logo from "../assets/Logo-bb.png";
 import { VscThreeBars } from "react-icons/vsc";
 import { navLinks } from "../utils/data";
 import CartButtons from "./CartButtons";
+import { useProductsContext } from "../context/products_context";
 
-function Navbar() {
+const Navbar = () => {
+  const { openSidebar } = useProductsContext();
+
   return (
     <Wrapper>
       <div className="nav-center">
@@ -14,11 +17,7 @@ function Navbar() {
           <Link to="/">
             <img src={logo} alt="boxed bliss" />
           </Link>
-          <button
-            type="button"
-            className="nav-toggle"
-            //onClick={}
-          >
+          <button type="button" className="nav-toggle" onClick={openSidebar}>
             <VscThreeBars />
           </button>
         </div>
@@ -37,7 +36,7 @@ function Navbar() {
       </div>
     </Wrapper>
   );
-}
+};
 
 const Wrapper = styled.nav`
   height: 5rem;

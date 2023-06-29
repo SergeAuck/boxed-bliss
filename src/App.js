@@ -1,5 +1,5 @@
 import logo from "./assets/Logo-bb.png";
-import { Navbar, Footer } from "./components/";
+import { Navbar, Sidebar, Footer } from "./components/";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   About,
@@ -16,6 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
