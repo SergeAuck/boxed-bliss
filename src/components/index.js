@@ -7,6 +7,8 @@ import NewArrivals from "./NewArrivals";
 import Sidebar from "./Sidebar";
 import Error from "./Error";
 import PageHero from "./PageHero";
+import ProductImages from "./ProductImages";
+import Loading from "./Loading";
 
 export {
   Navbar,
@@ -18,5 +20,7 @@ export {
   Sidebar,
   Error,
   PageHero,
+  ProductImages,
+  Loading,
 };
 //test

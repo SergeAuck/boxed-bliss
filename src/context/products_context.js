@@ -7,6 +7,9 @@ import {
   GET_PRODUCTS_BEGIN,
   GET_PRODUCTS_SUCCESS,
   GET_PRODUCTS_ERROR,
+  GET_SINGLE_PRODUCT_BEGIN,
+  GET_SINGLE_PRODUCT_SUCCESS,
+  GET_SINGLE_PRODUCT_ERROR,
 } from "../actions";
 import { games } from "../utils/games";
 
@@ -18,6 +21,9 @@ const initialState = {
   products_loading: false,
   products_error: false,
   new_arrivals: [],
+  single_product_loading: false,
+  single_product_error: false,
+  single_product: {},
 };
 
 export const ProductsProvider = ({ children }) => {
@@ -42,12 +48,25 @@ export const ProductsProvider = ({ children }) => {
     }
   };
 
+  const getSingleProduct = (id) => {
+    dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
+    try {
+      const singleProduct = games[id - 1];
+      dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
+    } catch (error) {
+      dispatch({ type: GET_SINGLE_PRODUCT_ERROR });
+      console.log(error);
+    }
+  };
+
   useEffect(() => {
     getProducts(games);
   }, []);
 
   return (
-    <ProductsContext.Provider value={{ ...state, openSidebar, closeSidebar }}>
+    <ProductsContext.Provider
+      value={{ ...state, openSidebar, closeSidebar, getSingleProduct }}
+    >
       {children}
     </ProductsContext.Provider>
   );
