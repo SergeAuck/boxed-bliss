@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
 const ProductImages = ({ images = [{ url: "" }] }) => {
   //if images is undefined we will use empty array
   const [main, setMain] = useState(images[0]);
+
+  //not sure how this useeffect helps?
+  useEffect(() => {
+    setMain(images[0] || { url: "" });
+  }, [images]);
+  console.log(main);
+
   return (
     <Wrapper>
+      aaa
       <img src={main.url} alt="main image" className="main" />
       <div className="gallery">
         {images.map((image, index) => {
