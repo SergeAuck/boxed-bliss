@@ -5,7 +5,7 @@ const ProductImages = ({ images = [{ url: "" }] }) => {
   //if images is undefined we will use empty array
   const [main, setMain] = useState(images[0]);
 
-  //not sure how this useeffect helps?
+  //not sure useeffect
   useEffect(() => {
     setMain(images[0] || { url: "" });
   }, [images]);

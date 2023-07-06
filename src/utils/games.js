@@ -6,6 +6,7 @@ export const games = [
     name: "Catan",
     price: 1234,
     new_arrival: true,
+    stars: 3.5,
     image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
     images: [
       {
@@ -144,6 +145,7 @@ export const games = [
     name: "Risk",
     price: 2399,
     new_arrival: false,
+    stars: 4.2,
     image: "https://m.media-amazon.com/images/I/712t+lWwFUL._AC_SX679_.jpg",
     images: [
       {
@@ -282,6 +284,7 @@ export const games = [
     name: "Monopoly",
     price: 1699,
     new_arrival: true,
+    stars: 2.7,
     image: "https://m.media-amazon.com/images/I/816dE7TY9xL._AC_SX679_.jpg",
     images: [
       {
@@ -420,6 +423,7 @@ export const games = [
     name: "Operation Game",
     price: 1499,
     new_arrival: true,
+    stars: 5.0,
     image: "https://m.media-amazon.com/images/I/81XzqHpzQXL._AC_SX679_.jpg",
     images: [
       {
