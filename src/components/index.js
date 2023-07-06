@@ -9,6 +9,7 @@ import Error from "./Error";
 import PageHero from "./PageHero";
 import ProductImages from "./ProductImages";
 import Loading from "./Loading";
+import Stars from "./Stars";
 
 export {
   Navbar,
@@ -22,5 +23,6 @@ export {
   PageHero,
   ProductImages,
   Loading,
+  Stars,
 };
 //test
