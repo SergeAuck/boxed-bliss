@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { BsStarFill, BsStarHalf, BsStar } from "react-icons/bs";
+import {
+  TiStarFullOutline,
+  TiStarHalfOutline,
+  TiStarOutline,
+} from "react-icons/ti";
 
 const Stars = ({ stars, reviews }) => {
   const tempStars = Array.from({ length: 5 }, (_, index) => {
@@ -8,11 +12,11 @@ const Stars = ({ stars, reviews }) => {
     return (
       <span key={index}>
         {stars >= index + 1 ? (
-          <BsStarFill />
+          <TiStarFullOutline />
         ) : stars >= number ? (
-          <BsStarHalf />
+          <TiStarHalfOutline />
         ) : (
-          <BsStar />
+          <TiStarOutline />
         )}
       </span>
     );
