@@ -52,10 +52,10 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
     try {
       const singleProduct = games[id - 1];
-
-      dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
       if (!singleProduct) {
         dispatch({ type: GET_SINGLE_PRODUCT_ERROR });
+      } else {
+        dispatch({ type: GET_SINGLE_PRODUCT_SUCCESS, payload: singleProduct });
       }
     } catch (error) {
       dispatch({ type: GET_SINGLE_PRODUCT_ERROR });

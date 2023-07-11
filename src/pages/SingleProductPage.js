@@ -7,7 +7,7 @@ import {
   Loading,
   Error,
   ProductImages,
-  // AddToCart,
+  AddToCart,
   Stars,
   PageHero,
 } from "../components";
@@ -54,6 +54,7 @@ const SingleProductPage = () => {
     description,
     stars,
     reviews,
+    stock,
   } = product;
 
   return (
@@ -70,6 +71,17 @@ const SingleProductPage = () => {
             <Stars stars={stars} reviews={reviews} />
             <h5 className="price">{formatPrice(price)}</h5>
             <p className="desc">{description}</p>
+            <p className="info">
+              <span>Available : </span>
+              {stock > 0 ? "In Stock" : "out of stock"}
+            </p>
+            <p className="info">
+              <span>SKU : </span>
+              {sku}
+            </p>
+
+            <hr />
+            {stock > 0 && <AddToCart product={product} />}
           </section>
         </div>
       </div>

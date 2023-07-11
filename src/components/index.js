@@ -10,6 +10,8 @@ import PageHero from "./PageHero";
 import ProductImages from "./ProductImages";
 import Loading from "./Loading";
 import Stars from "./Stars";
+import AddToCart from "./AddToCart";
+import ProductQuantity from "./ProductQuantity";
 
 export {
   Navbar,
@@ -24,5 +26,7 @@ export {
   ProductImages,
   Loading,
   Stars,
+  AddToCart,
+  ProductQuantity,
 };
 //test
