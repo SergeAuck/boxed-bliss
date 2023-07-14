@@ -17,6 +17,10 @@ import ListView from "./ListView";
 import GridView from "./GridView";
 import ProductList from "./ProductsList";
 import Sort from "./Sort";
+import CartContent from "./CartContent";
+import CartItem from "./CartItem";
+import CartColumns from "./CartColumns";
+import CartTotals from "./CartTotals";
 
 export {
   Navbar,
@@ -38,5 +42,9 @@ export {
   GridView,
   ProductList,
   Sort,
+  CartContent,
+  CartItem,
+  CartColumns,
+  CartTotals,
 };
 //test

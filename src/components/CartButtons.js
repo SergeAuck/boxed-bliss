@@ -2,15 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FiShoppingCart } from "react-icons/fi";
+import { useCartContext } from "../context/cart_context";
 
 const CartButtons = () => {
+  const { total_items } = useCartContext();
+
   return (
     <Wrapper className="cart-btn-wrapper">
       <Link to="/cart" className="cart-btn">
         Cart{" "}
         <span className="cart-container">
           <FiShoppingCart />
-          <span className="cart-value">7</span>
+          <span className="cart-value">{total_items}</span>
         </span>
       </Link>
       Login
