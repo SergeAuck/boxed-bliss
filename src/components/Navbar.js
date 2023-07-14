@@ -6,9 +6,11 @@ import { VscThreeBars } from "react-icons/vsc";
 import { navLinks } from "../utils/data";
 import CartButtons from "./CartButtons";
 import { useProductsContext } from "../context/products_context";
+import { useUserContext } from "../context/user_context";
 
 const Navbar = () => {
   const { openSidebar } = useProductsContext();
+  const { myUser } = useUserContext();
 
   return (
     <Wrapper>
@@ -30,7 +32,11 @@ const Navbar = () => {
               </li>
             );
           })}
-          {/* checkout */}
+          {myUser && (
+            <li>
+              <Link to="/checkout">checkout</Link>
+            </li>
+          )}
         </ul>
         <CartButtons />
       </div>
