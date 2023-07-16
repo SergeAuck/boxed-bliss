@@ -71,7 +71,7 @@ const Filters = () => {
               className="number-of-players"
               onChange={updateFilters}
             >
-              {players.map((p, index) => {
+              {players.sort().map((p, index) => {
                 return (
                   <option key={index} value={p}>
                     {p}
