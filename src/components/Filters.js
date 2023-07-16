@@ -44,7 +44,7 @@ const Filters = () => {
           <div className="form-control">
             <h5>category</h5>
             <div>
-              {categories.map((c, index) => {
+              {categories.sort().map((c, index) => {
                 return (
                   <button
                     key={index}
@@ -157,28 +157,7 @@ const Wrapper = styled.section`
     border-color: transparent;
     padding: 0.25rem;
   }
-  .colors {
-    display: flex;
-    align-items: center;
-  }
-  .color-btn {
-    display: inline-block;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background: #222;
-    margin-right: 0.5rem;
-    border: none;
-    cursor: pointer;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    svg {
-      font-size: 0.5rem;
-      color: var(--clr-white);
-    }
-  }
+
   .all-btn {
     display: flex;
     align-items: center;

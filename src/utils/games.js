@@ -4,12 +4,12 @@ export const games = [
   {
     id: 1,
     name: "Exploding Kittens",
-    price: 1234,
-    category: "modern classic",
+    price: 5299,
+    category: "party games",
     new_arrival: true,
     shipping: true,
-    stars: 3.5,
-    reviews: 12,
+    stars: 4.2,
+    reviews: 61,
     image: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
     images: [
       {
@@ -19,23 +19,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        // thumbnails: {
-        //   small: {
-        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
-        //     width: 54,
-        //     height: 36,
-        //   },
-        //   large: {
-        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
-        //     width: 768,
-        //     height: 512,
-        //   },
-        //   full: {
-        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
-        //     width: 3000,
-        //     height: 3000,
-        //   },
-        // },
       },
       {
         id: "2xxx",
@@ -44,23 +27,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        // thumbnails: {
-        //   small: {
-        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
-        //     width: 54,
-        //     height: 36,
-        //   },
-        //   large: {
-        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
-        //     width: 768,
-        //     height: 512,
-        //   },
-        //   full: {
-        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
-        //     width: 3000,
-        //     height: 3000,
-        //   },
-        // },
       },
       {
         id: "3xxx",
@@ -69,23 +35,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        // thumbnails: {
-        //   small: {
-        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
-        //     width: 54,
-        //     height: 36,
-        //   },
-        //   large: {
-        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
-        //     width: 768,
-        //     height: 512,
-        //   },
-        //   full: {
-        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
-        //     width: 3000,
-        //     height: 3000,
-        //   },
-        // },
       },
       {
         id: "4xxx",
@@ -94,23 +43,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        // thumbnails: {
-        //   small: {
-        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
-        //     width: 54,
-        //     height: 36,
-        //   },
-        //   large: {
-        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
-        //     width: 768,
-        //     height: 512,
-        //   },
-        //   full: {
-        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
-        //     width: 3000,
-        //     height: 3000,
-        //   },
-        // },
       },
       {
         id: "5xxx",
@@ -119,23 +51,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        // thumbnails: {
-        //   small: {
-        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
-        //     width: 54,
-        //     height: 36,
-        //   },
-        //   large: {
-        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
-        //     width: 768,
-        //     height: 512,
-        //   },
-        //   full: {
-        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
-        //     width: 3000,
-        //     height: 3000,
-        //   },
-        // },
       },
     ],
     stock: 3,
@@ -161,23 +76,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/712t+lWwFUL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/712t+lWwFUL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/712t+lWwFUL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/712t+lWwFUL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2yyy",
@@ -186,23 +84,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/8182xDY-5kL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/8182xDY-5kL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/8182xDY-5kL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/8182xDY-5kL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3yyy",
@@ -211,23 +92,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/819k2KPLaqL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/819k2KPLaqL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/819k2KPLaqL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/819k2KPLaqL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4yyy",
@@ -236,23 +100,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81QV5NfQ6sL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81QV5NfQ6sL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81QV5NfQ6sL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81QV5NfQ6sL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5yyy",
@@ -261,23 +108,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81IARqKwUrL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81IARqKwUrL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81IARqKwUrL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81IARqKwUrL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
     stock: 7,
@@ -303,23 +133,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/816dE7TY9xL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/816dE7TY9xL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/816dE7TY9xL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/816dE7TY9xL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2nnn",
@@ -328,23 +141,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81ZbSo9bcjL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81ZbSo9bcjL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81ZbSo9bcjL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81ZbSo9bcjL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3nnn",
@@ -353,23 +149,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/812z45q0jYL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812z45q0jYL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812z45q0jYL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812z45q0jYL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4nnn",
@@ -378,23 +157,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81X8ncu0VoL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81X8ncu0VoL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81X8ncu0VoL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81X8ncu0VoL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5nnn",
@@ -403,23 +165,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/71Ll2qdg8GL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/71Ll2qdg8GL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/71Ll2qdg8GL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/71Ll2qdg8GL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
     stock: 4,
@@ -445,23 +190,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81XzqHpzQXL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81XzqHpzQXL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81XzqHpzQXL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81XzqHpzQXL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2ccc",
@@ -470,23 +198,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81jXoBo+sPL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81jXoBo+sPL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81jXoBo+sPL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81jXoBo+sPL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3ccc",
@@ -495,23 +206,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81tEKdrRXkL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81tEKdrRXkL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81tEKdrRXkL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81tEKdrRXkL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4ccc",
@@ -520,23 +214,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81LdA2GJ7TL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81LdA2GJ7TL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81LdA2GJ7TL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81LdA2GJ7TL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5ccc",
@@ -545,23 +222,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/71nBbE2szDL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/71nBbE2szDL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/71nBbE2szDL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/71nBbE2szDL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
     stock: 2,
@@ -575,36 +235,19 @@ export const games = [
     name: "Catan",
     price: 1234,
     category: "modern classic",
-    new_arrival: true,
+    new_arrival: false,
     shipping: true,
     stars: 3.5,
     reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    image: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
@@ -613,23 +256,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
@@ -638,48 +264,14 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
@@ -688,23 +280,6 @@ export const games = [
         url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
     stock: 3,
@@ -715,716 +290,291 @@ export const games = [
 
   {
     id: 6,
-    name: "Catan",
-    price: 1234,
-    category: "modern classic",
+    name: "Clue",
+    price: 3499,
+    category: "mystery games",
     new_arrival: true,
     shipping: true,
-    stars: 3.5,
-    reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    stars: 2.1,
+    reviews: 17,
+    image: "https://m.media-amazon.com/images/I/71oSGWDuUgL._AC_SL1500_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/71oSGWDuUgL._AC_SL1500_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81+rvJE79gL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/71kMcfg6dSL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/71aKDJVWWfL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81sYnh9mgCL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
-    stock: 3,
+    stock: 2,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "This version of Clue elevates the classic murder mystery game with a fresh take on the original plot, characters, and elegant Tudor Mansion. Players must solve Boddy Black's murder by gathering clues and racing to uncover the murderer, location, and weapon. Play as one of six suspects, each with unique backstories and secrets. The game boasts premium components including gold-plated weapon tokens, sculpted character movers, and detailed illustrations. Clue cards speed up the investigation by revealing hints. Suitable for family game nights, this immersive mystery game is designed for ages 8 and up.",
+    number_of_players: "2-6",
   },
 
   {
     id: 7,
-    name: "Catan",
-    price: 1234,
-    category: "modern classic",
-    new_arrival: true,
-    shipping: true,
-    stars: 3.5,
-    reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    name: "The Game of Life",
+    price: 999,
+    category: "family games",
+    new_arrival: false,
+    shipping: false,
+    stars: 4.5,
+    reviews: 4,
+    image: "https://m.media-amazon.com/images/I/81A0K5YsuxL._AC_SX679_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81A0K5YsuxL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81E9Qgk085L._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81WIGQDL9dL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/91P4YBAHddL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/91D8rzZBtYL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
     stock: 3,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "This board game features 6 vibrant peg colors to represent players as they navigate around the gameboard. In this engaging family game, each crossroad offers thrilling choices and adventures. Players make important life decisions, like attending college, marriage, expanding the family, or early retirement. Opportunities to invest in board numbers can lead to monetary growth whenever that number is spun. The Game of Life is an enjoyable activity for 2-4 players, suitable for parties, game nights, or homeschooling. It's an indoor fun option for kids aged 8 and above.",
+    number_of_players: "2-4",
   },
 
   {
     id: 8,
-    name: "Catan",
-    price: 1234,
+    name: "Scrabble",
+    price: 2599,
     category: "modern classic",
-    new_arrival: true,
+    new_arrival: false,
     shipping: true,
-    stars: 3.5,
-    reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    stars: 4.1,
+    reviews: 32,
+    image: "https://m.media-amazon.com/images/I/51O+I4BU2PL._AC_SX679_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/51O+I4BU2PL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/61CLhsNdQgL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/61pRXhbi1oL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/610yvtGe2JL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/61ROCuzWL5L._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
-    stock: 3,
+    stock: 5,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "Scrabble, the classic crossword game, is a perfect choice for a fun family game night. This edition features wooden letter tiles, racks, and a textured gameboard that securely holds the tiles. Points are earned by constructing words with letter tiles, with premium squares offering score multipliers. Deploy 2-letter words to surprise opponents, challenge their choices, and strategize for the win. Suitable for 2-4 players, Scrabble can be played in teams or as classic one-on-one matches. The game guide provides expert tips and alternate gameplays. Introduce your kids and grandkids to this timeless word game and create lasting memories.",
+    number_of_players: "2-4",
   },
 
   {
     id: 9,
-    name: "Catan",
-    price: 1234,
-    category: "modern classic",
-    new_arrival: true,
-    shipping: true,
-    stars: 3.5,
-    reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    name: "Candy Land",
+    price: 2999,
+    category: "family games",
+    new_arrival: false,
+    shipping: false,
+    stars: 3.3,
+    reviews: 3,
+    image: "https://m.media-amazon.com/images/I/91yUG40gv0L._AC_SX679_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/91yUG40gv0L._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/91Epa2nkxUL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81WvpYI+mkL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81DKf6bML+L._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/81-G2FuTlkL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
-    stock: 3,
+    stock: 10,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "Candy Land is a timeless board game that allows new generations to enjoy its sweetness. Players advance their delightful gingerbread man pawn on the path, racing towards the castle while encountering a variety of 'tasty' surprises. The game, designed for children ages 3 and up, requires no reading, making it an excellent choice for pre-readers. Candy Land captivates young players with its vibrant cards, enchanting destinations, and engaging illustrations. This sweet reinterpretation of the classic board game includes a gameboard, four pawns, a deck of cards, and instructions.",
+    number_of_players: "2-4",
   },
 
   {
     id: 10,
-    name: "Catan",
-    price: 1234,
-    category: "modern classic",
-    new_arrival: true,
-    shipping: true,
-    stars: 3.5,
-    reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    name: "Deadly Dowagers",
+    price: 3599,
+    category: "strategy games",
+    new_arrival: false,
+    shipping: false,
+    stars: 5.0,
+    reviews: 4,
+    image: "https://m.media-amazon.com/images/I/5197DyesvLL._AC_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/5197DyesvLL._AC_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/51Xvtd8QfhL._AC_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/414D+7xBeML._AC_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/517IsNbOrcL._AC_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/51HR8YRH+6L._AC_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
       },
     ],
-    stock: 3,
+    stock: 1,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "Deadly Dowagers is a strategic card-drafting game where players compete to increase their dowries while managing their reputations. The goal is to accumulate wealth by tactfully marrying and then eliminating husbands without garnering excessive notoriety, which might deter potential noble suitors. The game cleverly intertwines themes of marriage, wealth, and intrigue, all presented with stunning artwork and stylish design.",
+    number_of_players: "2-6",
   },
 ];
