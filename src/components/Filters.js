@@ -7,15 +7,22 @@ import { FaCheck } from "react-icons/fa";
 
 const Filters = () => {
   const {
-    filters: { text, category, min_price, max_price, shipping, price },
+    filters: {
+      text,
+      category,
+      min_price,
+      max_price,
+      shipping,
+      price,
+      number_of_players,
+    },
     updateFilters,
     clearFilters,
     all_products,
   } = useFilterContext();
 
   const categories = getUniqueValues(all_products, "category");
-  const companies = getUniqueValues(all_products, "company");
-  const colors = getUniqueValues(all_products, "colors");
+  const players = getUniqueValues(all_products, "number_of_players");
 
   return (
     <Wrapper>
@@ -34,7 +41,7 @@ const Filters = () => {
           </div>
           {/* end search input */}
           {/* categories */}
-          {/* <div className="form-control">
+          <div className="form-control">
             <h5>category</h5>
             <div>
               {categories.map((c, index) => {
@@ -53,8 +60,27 @@ const Filters = () => {
                 );
               })}
             </div>
-          </div> */}
+          </div>
           {/* end of categories */}
+          {/* players */}
+          <div className="form-control">
+            <h5>Player Count</h5>
+            <select
+              name="number_of_players"
+              value={number_of_players}
+              className="number-of-players"
+              onChange={updateFilters}
+            >
+              {players.map((p, index) => {
+                return (
+                  <option key={index} value={p}>
+                    {p}
+                  </option>
+                );
+              })}
+            </select>
+          </div>
+          {/* end of players */}
 
           {/* price */}
           <div className="form-control">
@@ -125,7 +151,7 @@ const Wrapper = styled.section`
   .active {
     border-color: var(--clr-grey-5);
   }
-  .company {
+  .number-of-players {
     background: var(--clr-grey-10);
     border-radius: var(--radius);
     border-color: transparent;

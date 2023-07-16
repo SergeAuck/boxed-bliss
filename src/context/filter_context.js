@@ -21,7 +21,7 @@ const initialState = {
     text: "",
 
     category: "all",
-
+    number_of_players: "all",
     min_price: 0,
     max_price: 0,
     price: 0,
@@ -52,8 +52,6 @@ export const FilterProvider = ({ children }) => {
   };
 
   const updateSort = (e) => {
-    //having a name is important on bigger projects
-    //const name = e.target.name;
     const value = e.target.value;
     dispatch({ type: UPDATE_SORT, payload: value });
   };
@@ -62,12 +60,11 @@ export const FilterProvider = ({ children }) => {
     let name = e.target.name;
     let value = e.target.value;
     if (name === "category") {
-      //that means that we are clicking any button in filters
       value = e.target.textContent;
     }
-    if (name === "color") {
-      value = e.target.dataset.color;
-    }
+    // if (name === "players") {
+    //   value = e.target.options[e.target.selectedIndex].text;
+    // }
     //turning string 'price' into number
     if (name === "price") {
       value = Number(value);

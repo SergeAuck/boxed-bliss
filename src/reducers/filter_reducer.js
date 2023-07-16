@@ -72,7 +72,8 @@ const filter_reducer = (state, action) => {
 
   if (action.type === FILTER_PRODUCTS) {
     const { all_products } = state;
-    const { text, category, company, color, price, shipping } = state.filters;
+    const { text, category, price, shipping, number_of_players } =
+      state.filters;
 
     let tempProducts = [...all_products];
     //filtering
@@ -88,12 +89,23 @@ const filter_reducer = (state, action) => {
         (product) => product.category === category
       );
     }
+    //players
+    if (number_of_players !== "all") {
+      tempProducts = tempProducts.filter(
+        (product) => product.number_of_players === number_of_players
+      );
+    }
 
     //price
     if (price) {
       tempProducts = tempProducts.filter((product) => product.price <= price);
     }
-
+    //shipping
+    if (shipping) {
+      tempProducts = tempProducts.filter(
+        (product) => product.shipping === true
+      );
+    }
     return { ...state, filtered_products: tempProducts };
   }
 
