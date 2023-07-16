@@ -24,7 +24,7 @@ const Product = ({ image, name, price, id }) => {
 const Wrapper = styled.article`
   .container {
     position: relative;
-    background: var(--clr-black);
+    background: var(--clr-white);
     border-radius: var(--radius);
   }
   img {
@@ -33,6 +33,9 @@ const Wrapper = styled.article`
     object-fit: cover;
     border-radius: var(--radius);
     transition: var(--transition);
+    mix-blend-mode: multiply;
+    background-color: #f0f0f0;
+    min-height: 50%;
   }
   .link {
     position: absolute;

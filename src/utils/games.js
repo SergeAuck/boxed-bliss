@@ -3,145 +3,145 @@ import React from "react";
 export const games = [
   {
     id: 1,
-    name: "Catan",
+    name: "Exploding Kittens",
     price: 1234,
     category: "modern classic",
     new_arrival: true,
     shipping: true,
     stars: 3.5,
     reviews: 12,
-    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    image: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
     images: [
       {
         id: "1xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
+        // thumbnails: {
+        //   small: {
+        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
+        //     width: 54,
+        //     height: 36,
+        //   },
+        //   large: {
+        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
+        //     width: 768,
+        //     height: 512,
+        //   },
+        //   full: {
+        //     url: "https://m.media-amazon.com/images/I/614u7plTGfL._AC_SL1400_.jpg",
+        //     width: 3000,
+        //     height: 3000,
+        //   },
+        // },
       },
       {
         id: "2xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
+        // thumbnails: {
+        //   small: {
+        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
+        //     width: 54,
+        //     height: 36,
+        //   },
+        //   large: {
+        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
+        //     width: 768,
+        //     height: 512,
+        //   },
+        //   full: {
+        //     url: "https://m.media-amazon.com/images/I/71rbQKgBYKL._AC_SL1400_.jpg",
+        //     width: 3000,
+        //     height: 3000,
+        //   },
+        // },
       },
       {
         id: "3xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
+        // thumbnails: {
+        //   small: {
+        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
+        //     width: 54,
+        //     height: 36,
+        //   },
+        //   large: {
+        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
+        //     width: 768,
+        //     height: 512,
+        //   },
+        //   full: {
+        //     url: "https://m.media-amazon.com/images/I/71vGhvDJScL._AC_SL1400_.jpg",
+        //     width: 3000,
+        //     height: 3000,
+        //   },
+        // },
       },
       {
         id: "4xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
+        // thumbnails: {
+        //   small: {
+        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
+        //     width: 54,
+        //     height: 36,
+        //   },
+        //   large: {
+        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
+        //     width: 768,
+        //     height: 512,
+        //   },
+        //   full: {
+        //     url: "https://m.media-amazon.com/images/I/718iv3fA4HL._AC_SL1400_.jpg",
+        //     width: 3000,
+        //     height: 3000,
+        //   },
+        // },
       },
       {
         id: "5xxx",
         width: 1000,
         height: 667,
-        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
         filename: "81+okm4IpfL._AC_SX679_.jpg",
         type: "image/jpeg",
-        thumbnails: {
-          small: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 54,
-            height: 36,
-          },
-          large: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 768,
-            height: 512,
-          },
-          full: {
-            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
-            width: 3000,
-            height: 3000,
-          },
-        },
+        // thumbnails: {
+        //   small: {
+        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
+        //     width: 54,
+        //     height: 36,
+        //   },
+        //   large: {
+        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
+        //     width: 768,
+        //     height: 512,
+        //   },
+        //   full: {
+        //     url: "https://m.media-amazon.com/images/I/712fjJPoJAL._AC_SX679_.jpg",
+        //     width: 3000,
+        //     height: 3000,
+        //   },
+        // },
       },
     ],
     stock: 3,
     description:
-      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
-    number_of_players: "3-4",
+      "Designed by prominent game developers and creators, Exploding Kittens became the most-backed Kickstarter game ever. The game is a strategic, feline spin on Russian Roulette where players draw cards until an Exploding Kitten card is pulled. This card ends the game for the player unless they have a Defuse card, which neutralizes the threat. The game set includes 56 cards, a box, and instructions. It can be played independently or with other decks for more players. Just a note, the box doesn't meow!",
+    number_of_players: "2-10",
   },
   {
     id: 2,
@@ -568,5 +568,863 @@ export const games = [
     description:
       "It's a classic family favourite! Cavity Sam is feeling a little under the weather. Kids will love to 'operate' and make him feel better. As soon as they grab the tweezers, get ready for giggles as they attempt to remove Sam's anatomy parts without getting buzzed!",
     number_of_players: "1",
+  },
+
+  {
+    id: 5,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
+  },
+
+  {
+    id: 6,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
+  },
+
+  {
+    id: 7,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
+  },
+
+  {
+    id: 8,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
+  },
+
+  {
+    id: 9,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
+  },
+
+  {
+    id: 10,
+    name: "Catan",
+    price: 1234,
+    category: "modern classic",
+    new_arrival: true,
+    shipping: true,
+    stars: 3.5,
+    reviews: 12,
+    image: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+    images: [
+      {
+        id: "1xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81+okm4IpfL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "2xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/91P396ws4PL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "3xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/818oIpXL7tL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "4xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/812ZMYDeGZL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+      {
+        id: "5xxx",
+        width: 1000,
+        height: 667,
+        url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+        filename: "81+okm4IpfL._AC_SX679_.jpg",
+        type: "image/jpeg",
+        thumbnails: {
+          small: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 54,
+            height: 36,
+          },
+          large: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 768,
+            height: 512,
+          },
+          full: {
+            url: "https://m.media-amazon.com/images/I/81rSEZZBGzL._AC_SX679_.jpg",
+            width: 3000,
+            height: 3000,
+          },
+        },
+      },
+    ],
+    stock: 3,
+    description:
+      "Set off on a quest to settle the isle of Catan. Guide your settlers to victory by smart trading and cunning development. Use resource combinations to buy useful development cards and build roads, settlements, and cities. Come by your resources through trades, cards, or lucky dice. But watch out! Someone may cut off your road and you never know when the robber might steal some of your needed gains!",
+    number_of_players: "3-4",
   },
 ];

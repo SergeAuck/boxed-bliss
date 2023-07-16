@@ -55,6 +55,7 @@ const SingleProductPage = () => {
     stars,
     reviews,
     stock,
+    number_of_players,
   } = product;
 
   return (
@@ -74,6 +75,10 @@ const SingleProductPage = () => {
             <p className="info">
               <span>Available : </span>
               {stock > 0 ? "In Stock" : "out of stock"}
+            </p>
+            <p className="info">
+              <span>Number of Players : </span>
+              {number_of_players}
             </p>
             <p className="info">
               <span>SKU : </span>
@@ -103,10 +108,9 @@ const Wrapper = styled.main`
     max-width: 45em;
   }
   .info {
-    text-transform: capitalize;
     width: 300px;
     display: grid;
-    grid-template-columns: 125px 1fr;
+    grid-template-columns: 175px 1fr;
     span {
       font-weight: 700;
     }
