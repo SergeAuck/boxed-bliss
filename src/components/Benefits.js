@@ -1,29 +1,60 @@
 import React from "react";
 import styled from "styled-components";
 import { benefits } from "../utils/data";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Benefits = () => {
+  const carouselSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <Wrapper>
       <div className="section-center">
         <h3>Why buy from Us</h3>
-
-        <div className="services-center">
+        <Slider {...carouselSettings}>
           {benefits.map((service) => {
             const { id, title, icon, text } = service;
             return (
-              <article key={id} className="service">
+              <Card key={id}>
                 <span className="icon">{icon}</span>
                 <h4>{title}</h4>
+                <hr />
                 <p>{text}</p>
-              </article>
+                <hr />
+              </Card>
             );
           })}
-        </div>
+        </Slider>
       </div>
     </Wrapper>
   );
 };
+
+const Card = styled.article`
+  /* extra card styles? */
+  // ...
+`;
 
 const Wrapper = styled.section`
   h3 {
@@ -32,10 +63,11 @@ const Wrapper = styled.section`
   ,
   h4 {
     color: var(--clr-primary-1);
+    text-align: center;
   }
-  padding: 5rem 0;
+  padding: 5rem 0rem;
 
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-8);
 
   .header h3 {
     margin-bottom: 2rem;
@@ -44,7 +76,7 @@ const Wrapper = styled.section`
   p {
     margin-bottom: 0;
     line-height: 1.8;
-    color: var(--clr-primary-3);
+    color: var(--clr-primary-2);
   }
   .services-center {
     margin-top: 4rem;
@@ -87,9 +119,8 @@ const Wrapper = styled.section`
     }
   }
   @media (min-width: 1280px) {
-    padding: 0;
     .section-center {
-      transform: translateY(5rem);
+      transform: translateY(0rem);
     }
   }
 `;

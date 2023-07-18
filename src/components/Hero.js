@@ -23,8 +23,9 @@ const Hero = () => {
         </Link>
       </article>
       <article className="img-container">
-        <img src={gametime} alt="nice table" className="main-img" />
-        <img src={mariotoy} alt="person working" className="accent-img" />
+        <img src={gametime} alt="gaming table" className="main-img" />
+        <img src={mariotoy} alt="mario brother" className="accent-img" />
+        <img src={mariotoy} alt="mario brother" className="accent2-img" />
       </article>
     </Wrapper>
   );
@@ -74,6 +75,14 @@ const Wrapper = styled.section`
     .accent-img {
       position: absolute;
       bottom: 0;
+      left: 0;
+      width: 250px;
+      transform: translateX(-50%);
+      border-radius: var(--radius);
+    }
+    .accent2-img {
+      position: absolute;
+      top: 0;
       left: 0;
       width: 250px;
       transform: translateX(-50%);

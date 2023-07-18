@@ -50,7 +50,7 @@ const Wrapper = styled.section`
     cursor: pointer;
   }
   .clear-btn {
-    background: var(--clr-black);
+    background: var(--clr-red-light) !important;
   }
 `;
 export default CartContent;

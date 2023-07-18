@@ -77,24 +77,6 @@ const Wrapper = styled.article`
     margin-bottom: 0;
   }
 
-  .color {
-    color: var(--clr-grey-5);
-    font-size: 0.75rem;
-    letter-spacing: var(--spacing);
-    text-transform: capitalize;
-    margin-bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    span {
-      display: inline-block;
-      width: 0.5rem;
-      height: 0.5rem;
-      background: red;
-      margin-left: 0.5rem;
-      border-radius: var(--radius);
-    }
-  }
   .price-small {
     color: var(--clr-primary-5);
   }
@@ -138,7 +120,7 @@ const Wrapper = styled.article`
     .price {
       display: block;
       font-size: 1rem;
-      color: var(--clr-primary-5);
+      color: var(--clr-primary-4);
       font-weight: 400;
     }
     .name {

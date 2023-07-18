@@ -101,7 +101,7 @@ const Wrapper = styled.main`
     margin-top: 2rem;
   }
   .price {
-    color: var(--clr-primary-5);
+    color: var(--clr-primary-4);
   }
   .desc {
     line-height: 2;

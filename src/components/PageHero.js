@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { IoIosArrowForward } from "react-icons/io";
 
 const PageHero = ({ title, product }) => {
   return (
@@ -8,7 +9,12 @@ const PageHero = ({ title, product }) => {
       <div className="section-center">
         <h4>
           <Link to="/">Home</Link>
-          {product && <Link to="/products">/ Products</Link>}/ {title}
+          {product && (
+            <Link to="/products">
+              <IoIosArrowForward size={17} /> Products
+            </Link>
+          )}
+          <IoIosArrowForward size={17} /> {title}
         </h4>
       </div>
     </Wrapper>
@@ -16,11 +22,16 @@ const PageHero = ({ title, product }) => {
 };
 
 const Wrapper = styled.section`
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-8);
   width: 100%;
   min-height: 6vh;
   display: flex;
   align-items: center;
+
+  span {
+    width: 0.2rem;
+    height: 0.2rem;
+  }
 
   color: var(--clr-primary-1);
   a {
