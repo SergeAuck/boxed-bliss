@@ -102,11 +102,11 @@ const Wrapper = styled.div`
     height: 100%;
     background: var(--clr-white);
     transition: var(--transition);
-    transform: translate(-100%);
+    transform: translateY(-100%);
     z-index: -1;
   }
   .show-sidebar {
-    transform: translate(0);
+    transform: translateY(0);
     z-index: 999;
   }
   .cart-btn-wrapper {
