@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import mariotoy from "../assets/mariotoy.jpg";
 import gametime from "../assets/gametime.jpg";
+import game from "../assets/game.jpg";
 import styled from "styled-components";
 
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
       <article className="img-container">
         <img src={gametime} alt="gaming table" className="main-img" />
         <img src={mariotoy} alt="mario brother" className="accent-img" />
-        <img src={mariotoy} alt="mario brother" className="accent2-img" />
+        <img src={game} alt="game dice" className="accent2-img" />
       </article>
     </Wrapper>
   );
