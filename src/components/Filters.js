@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { useFilterContext } from "../context/filter_context";
 import { formatPrice } from "../utils/priceConverter";
 import { getUniqueValues } from "../utils/getUniqueValues";
-import { FaCheck } from "react-icons/fa";
 
 const Filters = () => {
   const {

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { FaCheck } from "react-icons/fa";
 import { useCartContext } from "../context/cart_context";
 import ProduceQuantity from "./ProductQuantity";
 
@@ -53,19 +52,6 @@ const AddToCart = ({ product }) => {
 
 const Wrapper = styled.section`
   margin-top: 2rem;
-  .colors {
-    display: grid;
-    grid-template-columns: 125px 1fr;
-    align-items: center;
-    margin-bottom: 1rem;
-    span {
-      text-transform: capitalize;
-      font-weight: 700;
-    }
-    div {
-      display: flex;
-    }
-  }
 
   .active {
     opacity: 1;

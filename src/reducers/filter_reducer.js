@@ -50,7 +50,6 @@ const filter_reducer = (state, action) => {
     }
     if (sort === "name-a") {
       tempProducts = tempProducts.sort((a, b) => {
-        //long way
         return a.name.localeCompare(b.name);
       });
     }

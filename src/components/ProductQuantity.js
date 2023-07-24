@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import { LiaPlusCircleSolid, LiaMinusCircleSolid } from "react-icons/lia";
+import { TiPlus, TiMinus } from "react-icons/ti";
 
 const ProductQuantity = ({ increase, decrease, amount }) => {
   return (
     <Wrapper className="amount-btns">
       <button type="button" className="amount-btn" onClick={decrease}>
-        <LiaMinusCircleSolid />
+        <TiMinus />
       </button>
       <h2 className="amount">{amount}</h2>
       <button type="button" className="amount-btn" onClick={increase}>
-        <LiaPlusCircleSolid />
+        <TiPlus />
       </button>
     </Wrapper>
   );

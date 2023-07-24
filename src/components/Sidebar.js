@@ -11,7 +11,7 @@ import { useUserContext } from "../context/user_context";
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useProductsContext();
   const { myUser } = useUserContext();
-  const isOpen = true;
+  //const isOpen = true; old idea. delete?
 
   return (
     <Wrapper>

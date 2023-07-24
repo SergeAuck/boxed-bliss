@@ -126,13 +126,6 @@ const Wrapper = styled.article`
     .name {
       font-size: 0.85rem;
     }
-    .color {
-      font-size: 0.85rem;
-      span {
-        width: 0.75rem;
-        height: 0.75rem;
-      }
-    }
     grid-template-columns: 1fr 1fr 1fr 1fr auto;
     align-items: center;
     grid-template-rows: 75px;

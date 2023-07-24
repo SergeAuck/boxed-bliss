@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { formatPrice } from "../utils/priceConverter";
 import { Link } from "react-router-dom";
+
 const ListView = ({ products }) => {
   return (
     <Wrapper>
