@@ -31,6 +31,7 @@ const CheckoutForm = () => {
   const elements = useElements();
 
   const cardStyle = {
+    hidePostalCode: true,
     style: {
       base: {
         color: "#32325d",
@@ -106,7 +107,7 @@ const CheckoutForm = () => {
             Please use following test card number for purchase: 4242 4242 4242
             4242
           </p>
-          <p>Use any CVC and date</p>
+          <p>Use any CVC, date and ZIP code</p>
         </article>
       )}
       <form id="payment-form" onSubmit={handleSubmit}>
