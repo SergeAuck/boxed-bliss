@@ -107,7 +107,7 @@ const CheckoutForm = () => {
             Please use following test card number for purchase: 4242 4242 4242
             4242
           </p>
-          <p>Use any CVC, date and ZIP code</p>
+          <p>Use any CVC and date</p>
         </article>
       )}
       <form id="payment-form" onSubmit={handleSubmit}>
